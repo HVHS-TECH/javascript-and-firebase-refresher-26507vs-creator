@@ -1,4 +1,15 @@
+  const firebaseConfig = {
+    apiKey: "AIzaSyBPL24VWJhZmddNslgw2XRv7NIVu4tkfsk",
+    authDomain: "vanessa-sturman-13comp-8f6f4.firebaseapp.com",
+    databaseURL: "https://vanessa-sturman-13comp-8f6f4-default-rtdb.asia-southeast1.firebasedatabase.app",
+    projectId: "vanessa-sturman-13comp-8f6f4",
+    storageBucket: "vanessa-sturman-13comp-8f6f4.firebasestorage.app",
+    messagingSenderId: "294457924144",
+    appId: "1:294457924144:web:4d51a9d46ea5415b572bf5"
+  };
 
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
 
 function swapText() {
 
